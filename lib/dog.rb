@@ -9,8 +9,6 @@ class Dog
   
   def initialize(name)
     @name = name
-    ## how do I call that method here?
-    #receiver.method_name
     self.save
   end
   
