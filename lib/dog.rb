@@ -37,6 +37,7 @@ class Dog
   
 end
 
-d = Dog.new("name")
+d = Dog.new("Fido")
+b = Dog.new("Bob")
 # # d.all
 # Doggo.all
