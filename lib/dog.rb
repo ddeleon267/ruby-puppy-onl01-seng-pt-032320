@@ -39,5 +39,6 @@ end
 
 d = Dog.new("Fido")
 b = Dog.new("Bob")
+c = Dog.new("Lassie")
 # # d.all
 # Doggo.all
