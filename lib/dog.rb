@@ -1,7 +1,6 @@
 # Add your code here
 require "pry"
 
-binding.pry
 
 class Dog
   @@all = []
