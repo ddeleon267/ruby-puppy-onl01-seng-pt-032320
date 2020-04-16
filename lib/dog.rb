@@ -11,7 +11,7 @@ class Dog
     @name = name
     ## how do I call that method here?
     #receiver.method_name
-    .save
+    self.save
   end
   
   def save
