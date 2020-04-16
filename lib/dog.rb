@@ -29,8 +29,8 @@ class Dog
   ## how do I print the dog's name? / how do I ask a dog it's name?
   
   def self.print_all
-    self.all.each do |dog|
-      puts dog.name
+    putsself.all.each do |dog|
+       dog.name
     end
   end
 end
