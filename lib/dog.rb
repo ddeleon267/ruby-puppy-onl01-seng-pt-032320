@@ -1,15 +1,15 @@
 # Add your code here
 require "pry"
 
-# binding.pry
+binding.pry
 
 class Dog
   @@all = []
   
-  attr_accessor :name
+  # attr_accessor :name
   
   def initialize(name)
-     @name = name
+    @name = name
      @@all << self
   end
   
@@ -33,8 +33,10 @@ class Dog
        puts dog.name
     end
   end
+  
+  
 end
 
-# d = Dog.new("name")
+d = Dog.new("name")
 # # d.all
 # Doggo.all
