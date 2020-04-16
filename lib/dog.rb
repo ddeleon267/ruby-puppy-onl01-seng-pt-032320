@@ -26,7 +26,7 @@ class Dog
   ## go through that @@all array 
   ## how do I go through an array?
   ## how do I access individual dogs in an array
-  ## how do I print the dog's name?
+  ## how do I print the dog's name? / how do I ask a dog it's name?
   
   def self.print_all
     self.all.each do |dog|
