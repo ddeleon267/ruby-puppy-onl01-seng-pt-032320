@@ -12,6 +12,9 @@ class Dog
      @@all << self  ##  move this out into a separate method
   end
   
+  def save
+    
+  end
   def self.all
     @@all
   end
